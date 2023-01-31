@@ -102,7 +102,7 @@ class ViewController: NSViewController {
             let task:Process = Process()
             let pipe:Pipe = Pipe()
             task.launchPath = "/usr/bin/curl"
-            task.arguments = ["-o", "/Users/Shared/C759_C658_C368_C287_C3851_109.pkg", "https://xxxxx/pjusk/C759_C658_C368_C287_C3851_109.pkg"]
+            task.arguments = ["-o", "/Users/Shared/C759_C658_C368_C287_C3851_109.pkg", "https://xxxxx/C759_C658_C368_C287_C3851_109.pkg"]
             task.standardOutput = pipe
             task.launch()
             task.waitUntilExit()
